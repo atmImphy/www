@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin:0;
+}
+ul{
+  list-style: none;
+}
+a{
+  list-style: none;
+  text-decoration:none;
+  padding: 0;
+  margin:0;
+}
+html{
+  width:100%;
+  height:100%;
+  overflow: auto;
+}
+body{
+  padding-top: 40px;
+  width: 100%;
+  height:100%;
+  overflow: auto;
+}
+/*轮播图*/
+.swiper img{
+  width: 100%;
+}
+/*新闻详情图片*/
+.detail-content img{
+  width: 100%;
+  height: auto;
+  margin:5px 0;
+}
+.detail-content p{
+  margin : 5px 0;
+  text-align: justify;
+  line-height: 2;
+  font-size: 16px;
+}
+/*图文分享*/
+.photo-list ul li a img{
+  width: 100%;
+  float: left;
+}
+/*图文详情*/
+.pswp__bg{
+  background-color:rgba(0,0,0,0.8);
+}
+.my-gallery{
+  width: 95%;
+  margin:25px auto 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+figure{
+  display: inline-block;
+  width: 33.3%;
+  height: 20vw;
+  overflow: hidden;
+}
+figure a{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+figure img{
+  width: 100%;
+  height: auto;
+  float: left;
+}
